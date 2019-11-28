@@ -32,7 +32,7 @@ class quiz:
             student_data.append(temp)
         
         self.data = student_data
-        print(self.data)
+        print(self.data[:10])
 
     
     def quiz_1(self):
@@ -103,11 +103,10 @@ class quiz:
 
         return self.quiz_4
 
-    def save(self, fname):
+    def save(self, fname = 'answers.txt'):
         import os
-        path = os.path.join('./data', fname)
-
-        f = open('answers.txt','w')
+        
+        f = open(fname,'w')
         f.write("{}\n".format(self.quiz_1))
         f.write("{}\n".format(self.quiz_2))
         f.write("{}\n".format(self.quiz_3))
