@@ -1,0 +1,9 @@
+주제	학습목표	상세기준	통과
+Normalize, sequential data 처리	함수 구현	주어진 데이터셋에 맞게 make_dataset함수를 구현한다.	Pass
+네트워크 설계	LSTM 설계	적절한 Hidden State Size를 갖는 Multi layer LSTM을 설계한다.	Pass
+네트워크 설계	Dense layer 설계	출력 feature가 하나인 Dense layer를 설계한다.	Pass
+모델 저장	callback 설계	모델의 parameter만 저장한다	Pass
+모델 저장	callback 설계	모델 저장 주기를 지정한다	Pass
+Loss function, Optimizer 정의	Mean Squared Error	MSE loss function을 정의한다.	Pass
+Loss function, Optimizer 정의	Adam	Adam optimizer를 정의한다.	Pass
+모델 성능 평가	MSE 비교	모델이 Baseline보다 성능이 좋은지 평가한다.	Pass

@@ -1,0 +1,19 @@
+주제	학습목표	상세기준	통과
+데이터셋 다운로드 및 훈련, 검증, 테스트 데이터셋 구분	데이터 개수 체크	훈련, 검증, 테스트용 데이터셋이 원하는 수만큼 구성이 되었는지 파악한다.	Pass
+tf.data.Dataset을 이용하여 Input pipeline 만들기	다양한 augmentation 기법을 구현	resize함수를 지문에 맞게 구현한다.	Pass
+tf.data.Dataset을 이용하여 Input pipeline 만들기	다양한 augmentation 기법을 구현	random_crop함수를 지문에 맞게 구현한다.	Pass
+tf.data.Dataset을 이용하여 Input pipeline 만들기	다양한 augmentation 기법을 구현	normalize함수를 지문에 맞게 구현한다.	Pass
+tf.data.Dataset을 이용하여 Input pipeline 만들기	다양한 augmentation 기법을 구현	central_crop함수를 지문에 맞게 구현한다.	Pass
+tf.data.Dataset을 이용하여 Input pipeline 만들기	Input pipeline 구현	tf.data.Dataset을 이용하여 input pipeline을 만든다.	Pass
+네트워크 설계	Convolution layer 설계	적절한 출력 채널 수와 필터 크기를 가진 convolution layer를 설계한다	Pass
+네트워크 설계	Batch normalization layer 설계	적절한 feature 수를 가진 batch normalization layer를 설계한다.	Pass
+네트워크 설계	ReLU 설계	ReLU를 activation function으로 사용한다.	Pass
+네트워크 설계	Maxpooling layer 설계	적절한 필터 크기를 가진 maxpooling layer를 설계한다.	Pass
+네트워크 설계	dense layer 설계	적절한 출력 feature 수를 가진 dense layer를 설계한다.	Pass
+모델 저장 및 callback 정의	save_only_weigths	모델의 파라미터만 저장한다.	Pass
+모델 저장 및 callback 정의	save frequency 지정	모델 파라미터의 저장주기를 정의하다.	Pass
+모델 생성 및 Loss function, Optimizer 정의	Cross entropy loss	cross entropy loss function을 정의한다.	Pass
+모델 생성 및 Loss function, Optimizer 정의	Adam	Adam optimizer를 정의한다.	Pass
+모델 성능 평가	Accuracy	Model의 Accuracy를 평가한다.	Pass
+모델 성능 평가	model.evaluation()	Model이 잘 학습되었는지 평가한다.	Pass
+transfer learning	레이어 수정	dense layer의 출력 feature 수를 수정한다.	Pass

@@ -15,7 +15,7 @@ def make_coord_df(result):
 	df = pd.DataFrame(result, columns=['x', 'y'])
 	
 	return df
-
+ 
 def plot_coord(r, df):
 	plt.figure(figsize=(5, 5))
 	plt.xlim(-r*2, r*2)
@@ -25,7 +25,7 @@ def plot_coord(r, df):
 
 if __name__ == "__main__":
 	r = 1
-	n = 3
+	n = 4
 	n_angle = int(360 / n)
 
 	result = []
@@ -35,6 +35,7 @@ if __name__ == "__main__":
 		result.append(coord)
 
 	df = make_coord_df(result)
+	print(df)
 	plot_coord(r, df)
 
 

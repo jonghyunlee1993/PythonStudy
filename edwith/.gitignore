@@ -1,0 +1,9 @@
+01_dnn_tf/submit
+02_cnn_tf/submit
+03_rnn_tf/submit
+
+02_cnn_tf/data
+02_cnn_tf/train
+
+03_rnn_tf/data
+03_rnn_tf/train
