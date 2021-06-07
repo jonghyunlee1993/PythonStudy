@@ -1,3 +1,5 @@
+pytorch/.data
+pytorch/.vector_cache
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,jupyternotebooks,visualstudiocode,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,jupyternotebooks,visualstudiocode,pycharm
